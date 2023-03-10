@@ -72,3 +72,24 @@
 #     print(f"{ticket} -> yes")
 # else:
 #     print(f"Answer: {ticket} -> no")
+
+
+
+# Задание 8
+# Требуется определить, можно ли от шоколадки размером n × m долек отломить k долек,
+# если разрешается сделать один разлом по прямой между дольками
+# (то есть разломить шоколадку на два прямоугольника).
+# Пример:
+# 3 2 4 -> yes
+# 3 2 1 -> no
+
+# Решение
+
+# n = int(input("Enter the number of rows of chocolate: "))
+# m = int(input("Enter the number of colomns of chocolate: "))
+# k = int(input("Enter the number of chocolate pieces: "))
+
+# if k < m * n and (k % m == 0 or k % n == 0):
+#     print(f"Answer: {n, m, k} -> yes")
+# else:
+#     print(f"Answer: {n, m, k} -> no")
